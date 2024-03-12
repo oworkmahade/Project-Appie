@@ -28,17 +28,16 @@
         <section class="nav border-green-600 border-2 bg-[#0e1233] ">
             <div
                 class="container border-white border-2 min-h-2 mx-auto my-2 flex flex-row justify-between items-center">
-                <div class="nav-logo-menu-container flex flex-row items-center gap-8">
+                <div class="nav-logo-menu-container flex flex-row items-center gap-4">
                     <div class="nav-logo min-h-2">
-                        <img class="w-16 lg:w-36 h-auto" src="./images/appie-logo/logo.png" alt="">
+                        <img class="w-16 lg:w-48 h-auto" src="./images/appie-logo/logo.png" alt="">
                     </div>
                     <div class="nav-menu-container p-4">
                         <ul
-                            class="nav-menu text-white text-roboto lg:text-xl  lg:font-[500] hidden lg:flex flex-row lg:space-x-5  items-center">
+                            class="nav-menu text-white text-roboto lg:text-2xl lg:font-[500] hidden lg:flex flex-row lg:space-x-5  items-center">
                             <li><a class="hover:text-orange-600" href="#">Home</a></li>
                             <li><a class="hover:text-orange-600" href="#">About Us</a></li>
                             <li><a class="hover:text-orange-600" href="#">Pages</a></li>
-                            <li><a class="hover:text-orange-600" href="#">Mega Menu</a></li>
                             <li><a class="hover:text-orange-600" href="#">Blog</a></li>
                             <li><a class="hover:text-orange-600" href="#">Contact</a></li>
                         </ul>
@@ -46,7 +45,7 @@
                 </div>
 
                 <div
-                    class="nav-login-started-container p-1 lg:p-1 text-white text-lg lg:text-xl text-roboto font-[500] hidden lg:flex flex-row">
+                    class="nav-login-started-container p-1 lg:p-1 text-white text-lg md:xl lg:text-2xl text-roboto md:font-[400] lg:font-[500] hidden lg:flex flex-row">
                     <button class="hover:text-orange-600 p-2 lg:p-5" type="button"><i
                             class="fa-solid fa-right-to-bracket mr-2"></i>
                         Login</button>
@@ -69,13 +68,15 @@
                     Showcase your <span class="text-[#d33c25]">App</span></h3>
                 <p class="opacity-70 text-xl py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <div class="banner-btn flex justify-center gap-5">
+                <div class="banner-btn flex flex-col lg:flex-row justify-center gap-5">
                     <button
                         class=" bg-[#d33c25] px-5 py-2 rounded-lg bg-transparent border-orange-600 border-2 text-orange-600"
                         type="button">Get a Quote</button>
 
-                    <button class="" type="button"><i class="fa-solid fa-circle-play mr-4"></i>Play
-                        Video</button>
+                    <div class="play-video flex justify-center items-center">
+                        <i class="fa-solid fa-circle-play  mr-2 lg:mr-4 text-3xl"></i>
+                        <button>Play Video</button>
+                    </div>
                 </div>
 
                 <div class="banner-img translate-y-16 lg:translate-y-48 border-yellow-400 border-2">
@@ -85,15 +86,89 @@
         </section>
     </header>
     <main>
-        <div class="you-can-do">
-            <div class="container border-black border-2 min-h-10 mx-auto mt-56">
-                <h3 class="text-5xl lg:text-7xl font-bold text-roboto text-center">What you can do</h3>
-                <p class="text-xl lg:text-2xl text-center opacity-70 text-roboto mt-6">Lorem ipsum dolor sit amet
+        <section class="you-can-do">
+            <div class="container border-black border-2 mx-auto mt-28
+             lg:mt-96">
+                <h3 class="text-5xl lg:text-7xl font-bold text-roboto text-center">What you can do !</h3>
+                <p class="text-lg lg:text-2xl text-center opacity-70 text-roboto mt-6">Lorem ipsum dolor sit amet
                     consectetur
                     adipisicing elit. Dolore tenetur nulla, suscipit quaerat fugiat voluptatum reprehenderit corporis
                     recusandae velit deleniti, cum iste maxime consectetur officiis.</p>
             </div>
-        </div>
+        </section>
+
+
+        <section class="easy-to-use">
+            <div
+                class="container mx-auto border-black border-2 mt-4 lg:mt-56 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-5 px-5 lg:px-10">
+
+                <div class="card-easy-to-use flex flex-col justify-center items-center shadow-md p-4 rounded-lg">
+                    <div
+                        class="card-image bg-green-500 border-2 w-16 h-16 flex justify-center items-center rounded-full mt-16">
+                        <i class="fa-solid fa-play text-white text-3xl"></i>
+                    </div>
+
+                    <h3 class="card-title text-roboto text-2xl mt-4 font-bold">Easy To use</h3>
+                    <p class="card-description text-roboto opacity-70 py-3 text-center">Lorem ipsum dolor, sit amet
+                        consectetur
+                        adipisicing
+                        elit. Minus, vero.
+                    </p>
+                    <button class="read-more text-roboto text-xl mb-16">Read More</button>
+                </div>
+
+
+                <div class="card-easy-to-use flex flex-col justify-center items-center  shadow-md p-4 rounded-lg">
+                    <div
+                        class="card-image  bg-yellow-500 border-2 w-16 h-16 flex justify-center items-center rounded-full mt-16">
+                        <i class="fa-solid fa-play text-white text-3xl"></i>
+                    </div>
+
+                    <h3 class="card-title text-roboto text-2xl mt-4 font-bold">Easy To use</h3>
+                    <p class="card-description text-roboto opacity-70 py-3 text-center">Lorem ipsum dolor, sit amet
+                        consectetur
+                        adipisicing
+                        elit. Minus, vero.
+                    </p>
+                    <button class="read-more text-roboto text-xl mb-16">Read More</button>
+                </div>
+
+
+                <div class="card-easy-to-use flex flex-col justify-center items-center shadow-md p-4 rounded-lg">
+                    <div
+                        class="card-image bg-blue-500 border-2 w-16 h-16 flex justify-center items-center rounded-full mt-16">
+                        <i class="fa-solid fa-play text-white text-3xl"></i>
+                    </div>
+
+                    <h3 class="card-title text-roboto text-2xl mt-4 font-bold">Easy To use</h3>
+                    <p class="card-description text-roboto opacity-70 py-3 text-center">Lorem ipsum dolor, sit amet
+                        consectetur
+                        adipisicing
+                        elit. Minus, vero.
+                    </p>
+                    <button class="read-more text-roboto text-xl mb-16">Read More</button>
+                </div>
+
+
+                <div class="card-easy-to-use flex flex-col justify-center items-center shadow-md p-4 rounded-lg">
+                    <div
+                        class="card-image bg-orange-500 border-2 w-16 h-16 flex justify-center items-center rounded-full mt-16">
+                        <i class="fa-solid fa-play text-white text-3xl"></i>
+                    </div>
+
+                    <h3 class="card-title text-roboto text-2xl mt-4 font-bold">Easy To use</h3>
+                    <p class="card-description text-roboto opacity-70 py-3 text-center">Lorem ipsum dolor, sit amet
+                        consectetur
+                        adipisicing
+                        elit. Minus, vero.
+                    </p>
+                    <button class="read-more text-roboto text-xl mb-16">Read More</button>
+                </div>
+
+            </div>
+        </section>
+
+
     </main>
     <footer></footer>
 </body>
